@@ -3,7 +3,7 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="50" width="100%">
 
-Master fundamental AI concepts and develop practical machine learning skills in the beginner-friendly, 3-course program by AI visionary Andrew Ng
+Master fundamental AI concepts and develop practical machine learning skills in the beginner-friendly, 3-course program by AI visionary Andrew Ng the coure is in coursera and brouget by stanford universty and deeplearning.AI
 
 The Machine Learning Specialization is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online. This beginner-friendly program will teach you the fundamentals of machine learning and how to use these techniques to build real-world AI applications. 
 
@@ -82,6 +82,10 @@ machine-learning-specialization-course" alt="top language" />
 # :books: Course Material
  
     + Introduction to machine learning
+    + Supervised learning
+    + Regression
+    + Classification
+    + Unsupervised learning 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +95,72 @@ machine-learning-specialization-course" alt="top language" />
 
 ## 1. TABLE OF CONTENTS
   - [1. TABLE OF CONTENTS](#1-table-of-contents)
+  - [2. APPLICATIONS OF MACHINE LEARNING](#2-applications-of-machine-learning)
+  - [3. MACHINE LEARNING DEFINITION ](#3-machine-learning-definition)
+  - [4. SUPERVISED LEARNING](#4-supervised-learning)
+  - [5. REGRESSION](#5-regression)
+  - [6. CLASSIFICATION](#6-classification)
+  - [7. UNSUPERVISED LEARNING](#7-unsupervised-learning)
+  
+## 2. APPLICATIONS OF MACHINE LEARNING
+
+![OmgWowGIF](https://user-images.githubusercontent.com/91504420/230409706-97176a59-d938-4897-8bb8-71f28b00f427.gif)
+
+Machine learning is a field of artificial intelligence that focuses on building algorithms that can automatically learn from and make predictions on data. Here is a brief summary of some common applications of machine learning:
+
+ + Image and speech recognition: Machine learning algorithms can be trained to recognize images and speech with high accuracy, allowing for applications such as image search, facial recognition, and voice assistants.
+
+  + Natural language processing: Machine learning algorithms can analyze and understand human language, allowing for applications such as language translation, sentiment analysis, and chatbots.
+
+  + Fraud detection: Machine learning algorithms can detect patterns in financial transactions and identify fraudulent behavior, helping to prevent financial loss.
+
+  + Recommendation systems: Machine learning algorithms can analyze user behavior and preferences to make personalized recommendations, such as in e-commerce and content streaming platforms.
+
+  + Healthcare: Machine learning algorithms can analyze medical data to help diagnose diseases, predict patient outcomes, and develop personalized treatment plans.
+
+  + Autonomous vehicles: Machine learning algorithms are used to help autonomous vehicles make decisions and navigate their surroundings.
+
+  + Predictive maintenance: Machine learning algorithms can analyze sensor data from machines to predict when maintenance is needed, helping to prevent downtime and reduce costs.
+
+## 3. MACHINE LEARNING DEFINITION
+
+![JustBasicStuffNormalGIF](https://user-images.githubusercontent.com/91504420/230414731-e129d8a6-e1dd-4d7a-9057-051b4e137e85.gif)
+
+Machine learning is a subfield of artificial intelligence that involves developing algorithms that can learn from data and make predictions or decisions based on that learning. It uses statistical techniques to enable computers to improve at a task over time, without being explicitly programmed to do so. The main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Applications of machine learning include image and speech recognition, natural language processing, fraud detection, recommendation systems, healthcare, autonomous vehicles, and predictive maintenance.
+
+## 4. SUPERVISED LEARNING
+
+![ThisIsAnImpressiveResultDerekMullerGIF](https://user-images.githubusercontent.com/91504420/230476420-78789a70-70f7-4d58-a121-9254885c3f7b.gif)
+
+Supervised learning is a type of machine learning in which an algorithm learns to make predictions or decisions by training on a labeled dataset. The labeled dataset consists of input data paired with corresponding output data, called labels or target variables. During training, the algorithm learns to map inputs to outputs by adjusting its internal parameters using various optimization techniques. Once trained, the algorithm can be used to make predictions on new, unseen data. Supervised learning is used in a wide range of applications, such as image recognition, speech recognition, natural language processing, and recommendation systems.
+
+![image](https://user-images.githubusercontent.com/91504420/230415649-6cff3999-2c12-4a24-a229-807266ee7e95.png)
+
+## 5. REGRESSION
+
+![LinearRegressionGIF](https://user-images.githubusercontent.com/91504420/230476966-f6a148a8-2293-46f7-9002-aeb7e28953ab.gif)
+
+
+Regression is a type of supervised learning algorithm used for predicting continuous numerical values. The goal of regression is to build a model that can accurately predict the value of a dependent variable (also called the response variable) based on one or more independent variables (also called predictor variables or features). The most commonly used regression models include linear regression, polynomial regression, and logistic regression. Regression is widely used in various fields such as finance, economics, engineering, and social sciences for predicting outcomes based on historical data.
+
+![image](https://user-images.githubusercontent.com/91504420/230477065-f868fa30-1d16-4c76-8fd7-dc85bced96f6.png)
+
+## 6. CLASSIFICATION
+
+![TheTruthIsTheTruthJulietteFairmontGIF](https://user-images.githubusercontent.com/91504420/230478296-02fc6601-92f6-43f1-88a9-db44a03da90e.gif)
+
+Classification is a type of supervised learning algorithm used for predicting categorical values. The goal of classification is to build a model that can accurately classify input data into one of several predefined categories or classes. The input data is typically represented as a set of features, and the model learns to map the features to the corresponding class label based on labeled training data. The most commonly used classification algorithms include decision trees, logistic regression, support vector machines, and neural networks. Classification is widely used in various applications such as spam detection, fraud detection, sentiment analysis, and image recognition.
+
+![image](https://user-images.githubusercontent.com/91504420/230478341-3a7a826b-a3c8-4b50-95ec-fab06b315c00.png)
+
+## 7. UNSUPERVISED LEARNING
+
+![ThePatternHereIsClearSteveKornackiGIF](https://user-images.githubusercontent.com/91504420/230479195-ced69b45-6e66-42aa-a335-b8de63d842da.gif)
+
+Unsupervised learning is a type of machine learning in which the algorithm learns to identify patterns or relationships in input data without any labeled target variables. The algorithm is provided with a set of input data and must discover any underlying structure or patterns on its own. Unsupervised learning is often used for tasks such as clustering, dimensionality reduction, and anomaly detection. Clustering algorithms group similar data points together based on their features, while dimensionality reduction techniques aim to reduce the number of features in the input data. Anomaly detection algorithms identify unusual data points or patterns that do not fit the normal distribution of the input data. Unsupervised learning is widely used in fields such as finance, biology, and social network analysis.
+
+![image](https://user-images.githubusercontent.com/91504420/230480167-dc228ffe-0069-4d60-acee-2f8a8a8001b7.png)
+
 
 <!-- Contact -->
 # :handshake: Contact
