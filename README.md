@@ -106,7 +106,10 @@ machine-learning-specialization-course" alt="top language" />
   - [7. UNSUPERVISED LEARNING](#7-unsupervised-learning)
   - [8. LINEAR REGRESSION](#8-linear-regression)
   - [9. COST FUNCTION](#9-cost-function)
-  - [10. GRADIENT DESCENT](#10-gradient descent)
+  - [10. GRADIENT DESCENT](#10-gradient-descent)
+  - [11. MULTUPLE FEATURES](#11-multiple-features)
+  - [12. FEATURE SCALING](#12-feature-scaling)
+  - [13. FEATURE ENGINEERING](#13-feature-engineering)
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -201,7 +204,7 @@ The cost function, also known as the loss function or objective function, is a m
 
 ## 10. GRADIENT DESCENT
 
-
+![YogscastLydiaGIF](https://user-images.githubusercontent.com/91504420/230588948-1c68af05-682f-48bb-85aa-6b4b4114e5d7.gif)
 
 Gradient descent is an optimization algorithm used to minimize the cost function of a machine learning model. It is a first-order optimization algorithm, meaning that it takes into account the first derivative of the cost function, which is also known as the gradient.
 
@@ -216,6 +219,61 @@ Gradient descent is widely used in various machine learning models, such as line
 ![image](https://user-images.githubusercontent.com/91504420/230515340-389657fb-5c8b-4451-a42d-4a16641d3ea3.png)
 
 ![image](https://user-images.githubusercontent.com/91504420/230515559-655eb343-df52-47e8-bbb1-34b5c9a3876d.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230595144-b0bc313e-44cd-45b0-a7ec-e4cf39b6da5b.png)
+
+
+## 11. MULTUPLE FEATURES
+
+![MadroxMultipleManGIF](https://user-images.githubusercontent.com/91504420/230588779-15bcc10b-8bde-4c01-b34c-76b075402b5e.gif)
+
+multiple features refer to the variables or input data used to make predictions or classifications. These features are often represented as columns in a dataset and can be numerical, categorical, or textual in nature.
+
+Feature selection and engineering are crucial steps in machine learning as they determine the quality of the model's predictions. Selecting the most relevant and informative features helps to improve the model's accuracy and efficiency.
+
+Common techniques used in feature engineering include normalization, scaling, one-hot encoding, and dimensionality reduction. Additionally, feature selection methods such as correlation analysis, recursive feature elimination, and tree-based methods can be used to identify the most important features for a given problem.
+
+![image](https://user-images.githubusercontent.com/91504420/230589099-e1013003-3bd8-473e-8b30-d5a07995de04.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230589681-c6e571cb-441d-4960-9eb2-4939ba0518ad.png)
+
+## 12. FEATURE SCALING
+
+![LookAtTheScaleHereDaveOlsonGIF](https://user-images.githubusercontent.com/91504420/230591622-eed0aa7f-b500-4202-b973-4db846c2a8a3.gif)
+
+Feature scaling is a technique used in machine learning to transform the range of input variables to a common scale. This is done to ensure that no variable has a disproportionate impact on the model due to its larger magnitude or range.
+
+Common methods for feature scaling include normalization, which rescales the data to a range of 0 to 1, and standardization, which transforms the data to have a mean of 0 and a standard deviation of 1. These techniques can be applied to both numerical and categorical variables.
+
+Proper feature scaling can lead to faster and more accurate model training, particularly for algorithms that use distance-based measures, such as k-nearest neighbors and support vector machines.
+
+![image](https://user-images.githubusercontent.com/91504420/230591835-ceddcfa2-99c1-4a82-80c1-4a8d47f2110a.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230592028-084f759a-a9b6-406e-974f-9dc6383d7c66.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230593219-caaa4989-ad80-4e8c-838d-4861e6ce3262.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230593667-fca2c436-8174-42b7-b4a7-65a7789f46ee.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230594056-e5bb4502-d326-41de-ab39-7a14a1b6d479.png)
+
+## 13. FEATURE ENGINEERING
+
+![IWantToPlayAGameJigsawGIF](https://user-images.githubusercontent.com/91504420/230595657-e84fe27f-42c7-42b7-a564-e92a686b307a.gif)
+
+Feature engineering is the process of selecting, extracting, transforming, and creating features (input variables) from raw data in order to improve the performance of machine learning models.
+
+Feature engineering can involve several techniques such as:
+
+Feature extraction: This involves selecting relevant features from the original dataset and extracting useful information from them.
+
+Feature transformation: This involves transforming the features in order to improve their quality or make them easier to use in a model. Examples of transformations include scaling, normalization, and one-hot encoding.
+
+Feature creation: This involves creating new features from the original ones in order to capture important patterns or relationships in the data. Examples of feature creation include adding interaction terms, polynomial features, or feature combinations.
+
+Feature engineering is an important step in the machine learning pipeline as it can greatly affect the performance of the models. It requires a combination of domain knowledge, creativity, and experimentation to determine the best set of features for a given problem.
+
+![image](https://user-images.githubusercontent.com/91504420/230595700-2d5bb2c2-060d-4330-8730-77a9a262ffd6.png)
 
 
 <!-- Contact -->
