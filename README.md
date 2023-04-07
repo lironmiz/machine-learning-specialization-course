@@ -86,6 +86,9 @@ machine-learning-specialization-course" alt="top language" />
     + Regression
     + Classification
     + Unsupervised learning 
+    + Linear regression
+    + Cost function 
+    + Gradient descent 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +104,9 @@ machine-learning-specialization-course" alt="top language" />
   - [5. REGRESSION](#5-regression)
   - [6. CLASSIFICATION](#6-classification)
   - [7. UNSUPERVISED LEARNING](#7-unsupervised-learning)
+  - [8. LINEAR REGRESSION](#8-linear-regression)
+  - [9. COST FUNCTION](#9-cost-function)
+  - [10. GRADIENT DESCENT](#10-gradient descent)
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -160,6 +166,56 @@ Classification is a type of supervised learning algorithm used for predicting ca
 Unsupervised learning is a type of machine learning in which the algorithm learns to identify patterns or relationships in input data without any labeled target variables. The algorithm is provided with a set of input data and must discover any underlying structure or patterns on its own. Unsupervised learning is often used for tasks such as clustering, dimensionality reduction, and anomaly detection. Clustering algorithms group similar data points together based on their features, while dimensionality reduction techniques aim to reduce the number of features in the input data. Anomaly detection algorithms identify unusual data points or patterns that do not fit the normal distribution of the input data. Unsupervised learning is widely used in fields such as finance, biology, and social network analysis.
 
 ![image](https://user-images.githubusercontent.com/91504420/230480167-dc228ffe-0069-4d60-acee-2f8a8a8001b7.png)
+
+## 8. LINEAR REGRESSION
+
+![SecantLineConvergingToTangentLineAnimationGIF](https://user-images.githubusercontent.com/91504420/230501458-ef15c631-16f7-471f-81d4-737523101c32.gif)
+
+Linear regression is a statistical method used to model the relationship between a dependent variable (usually denoted by "y") and one or more independent variables (usually denoted by "x"). The relationship between the variables is assumed to be linear, which means that a change in the independent variable(s) results in a proportional change in the dependent variable.
+
+In other words, linear regression tries to find the line of best fit that describes the relationship between the variables. This line can be used to predict the value of the dependent variable given the value(s) of the independent variable(s).
+
+Linear regression is widely used in various fields, including finance, economics, biology, and engineering. It can be used for both simple linear regression, where there is only one independent variable, and multiple linear regression, where there are several independent variables.
+
+The method involves estimating the coefficients of the line of best fit using a technique called Ordinary Least Squares (OLS). The OLS method minimizes the sum of the squared differences between the predicted and actual values of the dependent variable, which results in the line of best fit that describes the relationship between the variables.
+
+![image](https://user-images.githubusercontent.com/91504420/230510882-b59aa22f-27f8-461f-a25a-cc3ffb48429f.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230511352-158675eb-1100-4c6f-a871-35150b573bc0.png)
+
+## 9. COST FUNCTION
+
+![GetBetterTrevorMcnealGIF](https://user-images.githubusercontent.com/91504420/230512420-e8e7fa85-6dd7-4f93-9091-11ee9abdc920.gif)
+
+The cost function, also known as the loss function or objective function, is a mathematical function that measures the difference between the predicted output and the actual output for a given set of input data. Its purpose is to quantify how well a machine learning algorithm is performing and guide the optimization process of the model parameters to minimize the errors in the predictions. The choice of the cost function depends on the specific problem being solved, and there are different types of cost functions, such as mean squared error, cross-entropy, hinge loss, etc. The cost function plays a crucial role in training machine learning models and is typically optimized using techniques such as gradient descent.
+
+![image](https://user-images.githubusercontent.com/91504420/230512514-cc8560d7-698b-49e6-88a4-17421ca9c72c.png)
+
+### Examples: 
+
+![image](https://user-images.githubusercontent.com/91504420/230513114-3fd7c578-3042-41b1-9aba-b033d18b7e0b.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230513482-1c282e4b-a864-4384-a210-369c5e519510.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230513851-14f1af72-8eb6-4ae9-8182-485f19a09713.png)
+
+## 10. GRADIENT DESCENT
+
+
+
+Gradient descent is an optimization algorithm used to minimize the cost function of a machine learning model. It is a first-order optimization algorithm, meaning that it takes into account the first derivative of the cost function, which is also known as the gradient.
+
+The basic idea behind gradient descent is to iteratively update the parameters of the model in the direction of the negative gradient of the cost function. This means that the algorithm tries to find the minimum of the cost function by taking small steps in the direction of the steepest slope.
+
+The algorithm starts with an initial set of parameter values and iteratively updates them until it reaches a minimum of the cost function. There are different variations of gradient descent, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent.
+
+Gradient descent is widely used in various machine learning models, such as linear regression, logistic regression, and neural networks. It is a powerful optimization algorithm that can converge to a minimum of the cost function quickly, especially when combined with other optimization techniques such as momentum, adaptive learning rates, and regularization.
+
+![image](https://user-images.githubusercontent.com/91504420/230515012-cb10c228-009c-4e7e-b702-100cea0bbb64.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230515340-389657fb-5c8b-4451-a42d-4a16641d3ea3.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230515559-655eb343-df52-47e8-bbb1-34b5c9a3876d.png)
 
 
 <!-- Contact -->
