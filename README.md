@@ -89,6 +89,8 @@ machine-learning-specialization-course" alt="top language" />
     + Linear regression
     + Cost function 
     + Gradient descent 
+    + Logistic regression
+    + Decision boundary
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,6 +112,11 @@ machine-learning-specialization-course" alt="top language" />
   - [11. MULTUPLE FEATURES](#11-multiple-features)
   - [12. FEATURE SCALING](#12-feature-scaling)
   - [13. FEATURE ENGINEERING](#13-feature-engineering)
+  - [14. SIGMOID FUNCTION](#14-sigmoid-function)
+  - [15. LOGISTIC REGRESSION](#15-logistic-regerssion)
+  - [16. DECISION BOUNDARY](#16-decision-boundary)
+  - [17. OVERFITTING](#17-overfitting)
+  - [18. ADDRESSING OVERFITTING](#17-addressing-overfitting)
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -274,6 +281,91 @@ Feature creation: This involves creating new features from the original ones in 
 Feature engineering is an important step in the machine learning pipeline as it can greatly affect the performance of the models. It requires a combination of domain knowledge, creativity, and experimentation to determine the best set of features for a given problem.
 
 ![image](https://user-images.githubusercontent.com/91504420/230595700-2d5bb2c2-060d-4330-8730-77a9a262ffd6.png)
+
+## 14. SIGMOID FUNCTION
+
+![ICantFunctionTheBlackHokageGIF](https://user-images.githubusercontent.com/91504420/230645853-5b83a5b8-ca41-4db4-8d76-9540e287aff3.gif)
+
+The sigmoid function is a mathematical function that maps any input value to a value between 0 and 1, which is often used in machine learning and artificial neural networks. Specifically, the sigmoid function has an S-shaped curve and is defined as:
+
+f(x) = 1 / (1 + e^-x)
+
+where e is the mathematical constant approximately equal to 2.71828. The sigmoid function is useful for tasks where we want to output a probability, as it maps any real-valued input to a value between 0 and 1, which can be interpreted as a probability.
+
+![image](https://user-images.githubusercontent.com/91504420/230646021-feda48ed-2f47-4863-816d-dec2aae2fbaf.png)
+
+## 15. LOGISTIC REGRESSION
+
+![PrettyCoolAwesomeGIF](https://user-images.githubusercontent.com/91504420/230646333-2ab30f9a-1ff3-4038-88c2-e5d6f98668c9.gif)
+
+Logistic regression is a statistical method used for binary classification, which involves predicting a binary outcome (e.g., yes/no, true/false) based on one or more input variables (also known as features or predictors). It is a type of generalized linear model that uses the sigmoid function to transform the output of a linear equation into a probability value between 0 and 1.
+
+In logistic regression, the goal is to find the best set of coefficients (weights) that minimize the difference between the predicted probabilities and the actual outcomes. This is typically done using maximum likelihood estimation or gradient descent. Once the model is trained, it can be used to make predictions on new data by feeding the input variables into the model and calculating the predicted probability of the binary outcome.
+
+Logistic regression is a simple yet powerful method that is widely used in a variety of fields, including finance, healthcare, and marketing, among others. It is especially useful when the outcome variable is binary, and the input variables are continuous or categorical.
+
+![image](https://user-images.githubusercontent.com/91504420/230646174-ec5544e2-afd7-41a8-8317-3296f78cd6ea.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230652897-bcfefcb9-acbd-47aa-bffa-bef4b9349b8d.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230657656-9133ef6e-0a92-4065-8d2a-48ef16404fc0.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230658121-bac2908c-fc4c-4a93-adc0-dc47ae8e1619.png)
+
+
+## 16. DECISION BOUNDARY
+
+![ItsABigDecisionToMakeGaryGrahamGIF](https://user-images.githubusercontent.com/91504420/230648329-2fb48fd8-55fa-40a9-be06-9156bf49d58c.gif)
+
+A decision boundary is a concept in machine learning and data analysis that refers to the boundary or surface that separates different classes or groups in a dataset. In binary classification problems, the decision boundary is the line, curve, or surface that separates the data into two classes based on the values of the input variables.
+
+The decision boundary is typically learned by a machine learning algorithm through a process of training on a labeled dataset. Once the model is trained, it can be used to make predictions on new, unlabeled data by determining which side of the decision boundary the input data falls on.
+
+The decision boundary is influenced by various factors, including the choice of algorithm, the input features, and the complexity of the model. In some cases, the decision boundary may be linear, while in other cases, it may be nonlinear or even highly complex.
+
+Understanding the decision boundary is important in machine learning because it can help us interpret and visualize the results of a model, as well as identify areas where the model may be uncertain or where additional data or features may be needed to improve its accuracy.
+
+![image](https://user-images.githubusercontent.com/91504420/230649014-730e9f79-8d06-40ad-af2c-58de5a51f5b1.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230648814-372b05f0-d89a-4722-a4b6-9ba3b13440c6.png)
+
+## 17. OVERFITTING
+
+![GoodButNotReallyRyanHigaGIF](https://user-images.githubusercontent.com/91504420/230686012-a49d8c32-56c1-4b17-b0e3-703ca5ae1e86.gif)
+
+Overfitting is a common problem in machine learning where a model is too complex and starts to memorize the training data instead of learning general patterns that can be applied to new, unseen data. This causes the model to perform very well on the training data but poorly on new data, which means that the model has not learned the underlying relationships in the data and has instead just memorized the noise. To prevent overfitting, techniques such as cross-validation, early stopping, regularization, and data augmentation can be used.
+
+![image](https://user-images.githubusercontent.com/91504420/230686047-e4c0231a-d047-4c83-a257-fcfd6239c82a.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230686389-864f0da9-dc4b-4ae7-95a2-c0aeed7b5ba9.png)
+
+## 18. ADDRESSING OVERFITTING
+
+![StickergiantIllFixItGIF](https://user-images.githubusercontent.com/91504420/230686640-850622bb-d38b-4bf6-b3c1-0b7683f6f4cf.gif)
+
+ddressing overfitting in machine learning is crucial for building models that generalize well to new, unseen data. Some of the techniques that can be used to prevent overfitting include:
+
+Cross-validation: This involves splitting the data into multiple sets and training the model on each set to evaluate its performance on unseen data.
+
+Early stopping: This technique involves stopping the training process once the model's performance on a validation set stops improving.
+
+Regularization: This technique involves adding a penalty term to the model's loss function to prevent it from becoming too complex and overfitting the data.
+
+Data augmentation: This involves generating additional training data by applying transformations to the existing data.
+
+By applying these techniques, one can build models that are less likely to overfit the training data and perform well on new, unseen data.
+
+![image](https://user-images.githubusercontent.com/91504420/230686672-a24a5b88-2521-4c46-8989-cb8d6dd0c667.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230686797-f609e9fd-10ec-46c1-a9e5-92eae39f97dc.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230686912-2f2b0d4f-1a43-4788-b6fb-508741df6651.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230687391-e3876b7d-b65e-49be-a1c4-1ad26c28de90.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230687505-5c265783-87a7-400c-9f78-e1fe94b37670.png)
+
+![image](https://user-images.githubusercontent.com/91504420/230687845-4bd25038-f388-480b-aa52-35a8bba1a045.png)
 
 
 <!-- Contact -->
