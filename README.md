@@ -91,6 +91,9 @@ machine-learning-specialization-course" alt="top language" />
     + Gradient descent 
     + Logistic regression
     + Decision boundary
+    + Neural networks 
+    + Forward propagation
+    + TensorFlow
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +119,12 @@ machine-learning-specialization-course" alt="top language" />
   - [15. LOGISTIC REGRESSION](#15-logistic-regerssion)
   - [16. DECISION BOUNDARY](#16-decision-boundary)
   - [17. OVERFITTING](#17-overfitting)
-  - [18. ADDRESSING OVERFITTING](#17-addressing-overfitting)
+  - [18. ADDRESSING OVERFITTING](#18-addressing-overfitting)
+  - [19. NEURAL NETWORKS](#19-neural-networks)
+  - [20. FORWARD PROPAGATION](#20-forward-propagation)
+  - [21. TENSORFLOW](#21-tensorflow)
+  
+  forward propagation 
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -366,6 +374,59 @@ By applying these techniques, one can build models that are less likely to overf
 ![image](https://user-images.githubusercontent.com/91504420/230687505-5c265783-87a7-400c-9f78-e1fe94b37670.png)
 
 ![image](https://user-images.githubusercontent.com/91504420/230687845-4bd25038-f388-480b-aa52-35a8bba1a045.png)
+
+19. NEURAL NETWORKS
+
+![LikeItGIF](https://user-images.githubusercontent.com/91504420/231020187-32b7c8ca-c810-404a-915b-1dc9f16b1587.gif)
+
+Neural networks are a type of machine learning algorithm inspired by the structure and function of the human brain. They consist of interconnected nodes (or "neurons") organized into layers, with each layer responsible for performing specific tasks.
+
+During training, a neural network learns to recognize patterns in data by adjusting the weights of its connections between neurons in response to input data. This process allows the network to make predictions or classifications based on new data that it has not seen before.
+
+Neural networks are widely used in various applications such as image and speech recognition, natural language processing, and recommendation systems. They can also be used for regression analysis, where they learn to predict numerical values based on input data.
+
+Overall, neural networks have proven to be a powerful and flexible tool for solving a wide range of machine learning problems, and their use continues to grow in popularity.
+
+![image](https://user-images.githubusercontent.com/91504420/231020563-1e62fbcd-6e23-483c-b10c-9c3bc6657e26.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231020610-![Uploading ItActuallyPredictsTheFutureProfRichardLenskiGIF.gif…]()
+e1eea2b1-3847-40a7-8f49-eceb0182b798.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231023229-731ccc48-282c-412e-b844-79d4414a1cee.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231023134-0a205fd8-7d0d-4056-9eaf-80f4dc6f6fc5.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231023362-2a4fd6fa-22fb-4874-ab56-99ab0e284d04.png)
+
+
+20. FORWARD PROPAGATION
+
+![IHavePredictedItFamilyFeudCanadaGIF](https://user-images.githubusercontent.com/91504420/231021146-3e3bb4a3-6579-4102-878a-b8b737d2e8e1.gif)
+
+Forward propagation is the process by which a neural network calculates its output based on the input data. During forward propagation, the input data is passed through the layers of the network, and each neuron in each layer performs a weighted sum of its inputs, adds a bias term, and applies an activation function to produce an output. The output from each neuron in one layer serves as input to the next layer, until the final layer produces the network's output.
+
+The weights and biases in the network are learned during training, using an optimization algorithm that adjusts them to minimize the difference between the network's predicted output and the actual output. The optimization algorithm typically involves backpropagation, in which the error between the predicted and actual output is propagated backward through the network to adjust the weights and biases.
+
+Overall, forward propagation is a key step in the functioning of a neural network, as it allows the network to make predictions based on input data, and the accuracy of those predictions depends on the quality of the weights and biases learned during training.
+
+
+![image](https://user-images.githubusercontent.com/91504420/231021462-5b08f738-2287-4b25-ade8-3f265d0e728c.png)
+
+## 21. TENSORFLOW
+
+![CodingGIF](https://user-images.githubusercontent.com/91504420/231023570-7db1fd04-c688-4926-a846-0dbeb488b0f1.gif)
+
+TensorFlow is an open-source machine learning library developed by Google that allows developers to build, train, and deploy machine learning models. It provides a flexible, high-level API for building neural networks and other machine learning models, and supports a wide range of model architectures and data types.
+
+TensorFlow uses a dataflow graph model to represent computations as a series of nodes and edges, with tensors (multi-dimensional arrays) flowing between them. This allows for efficient parallel execution of computations, making it well-suited for large-scale machine learning applications.
+
+The library provides a range of tools and interfaces, including low-level APIs for building custom models, high-level APIs for easy model construction and training, and a variety of pre-trained models and tools for common machine learning tasks such as image classification, object detection, and natural language processing.
+
+Overall, TensorFlow is a powerful and widely-used tool in the field of machine learning and has enabled many researchers and developers to build and deploy sophisticated machine learning models in a wide range of applications.
+
+![image](https://user-images.githubusercontent.com/91504420/231024196-50297cb5-f50e-4806-a238-829e4a753fbb.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231024242-0ad2db03-a60c-4266-9ebd-3191baadf04d.png)
 
 
 <!-- Contact -->
