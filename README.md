@@ -94,6 +94,16 @@ machine-learning-specialization-course" alt="top language" />
     + Neural networks 
     + Forward propagation
     + TensorFlow
+    + Training neural networks 
+    + Activation functions
+    + Multiclass classfication
+    + Softmax regression algorithm
+    + Multi-label classification
+    + Adam algorithm
+    + Convolutional layer 
+    + Machine learning development process 
+    + Data augmentation
+    + Precision/recall 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,20 +122,28 @@ machine-learning-specialization-course" alt="top language" />
   - [8. LINEAR REGRESSION](#8-linear-regression)
   - [9. COST FUNCTION](#9-cost-function)
   - [10. GRADIENT DESCENT](#10-gradient-descent)
-  - [11. MULTUPLE FEATURES](#11-multiple-features)
+  - [11. MULTIPLE FEATURES](#11-multiple-features)
   - [12. FEATURE SCALING](#12-feature-scaling)
   - [13. FEATURE ENGINEERING](#13-feature-engineering)
   - [14. SIGMOID FUNCTION](#14-sigmoid-function)
-  - [15. LOGISTIC REGRESSION](#15-logistic-regerssion)
+  - [15. LOGISTIC REGERSSION](#15-logistic-regerssion)
   - [16. DECISION BOUNDARY](#16-decision-boundary)
   - [17. OVERFITTING](#17-overfitting)
   - [18. ADDRESSING OVERFITTING](#18-addressing-overfitting)
   - [19. NEURAL NETWORKS](#19-neural-networks)
   - [20. FORWARD PROPAGATION](#20-forward-propagation)
   - [21. TENSORFLOW](#21-tensorflow)
-  
-  forward propagation 
-  
+  - [22. RELU ACTIVATION](#22-relu-activation)
+  - [23. CHOOSING ACTIVATION FUNCTION](#23-choosing-activation-function)
+  - [24. MULTICLASS CLASSIFICATION](#24-multiclass-classification)
+  - [25. SOFTMAX REGRESSION](#25-softmax-regression)
+  - [26. MULTILABEL CLASSIFICATION](#26-multilabel-classification)
+  - [27. ADAM ALGORITHM](#27-adam-algorithm)
+  - [28. CONVOLUTIONAL LAYER](#28-convolutional-layer)
+  - [29. MACHINE LEARNING DEVELOPMENT PROCESS](#29-machine-learning-development-process)
+  - [30. DATA AUGMENTATION](#30-data-augmentation)
+  - [31. PRECISION AND RECALL](#31-precision-and-recall)
+  - [32. F1 SCORE](#32-f1-score)
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
 ![OmgWowGIF](https://user-images.githubusercontent.com/91504420/230409706-97176a59-d938-4897-8bb8-71f28b00f427.gif)
@@ -238,7 +256,7 @@ Gradient descent is widely used in various machine learning models, such as line
 ![image](https://user-images.githubusercontent.com/91504420/230595144-b0bc313e-44cd-45b0-a7ec-e4cf39b6da5b.png)
 
 
-## 11. MULTUPLE FEATURES
+## 11. MULTIPLE FEATURES
 
 ![MadroxMultipleManGIF](https://user-images.githubusercontent.com/91504420/230588779-15bcc10b-8bde-4c01-b34c-76b075402b5e.gif)
 
@@ -302,7 +320,7 @@ where e is the mathematical constant approximately equal to 2.71828. The sigmoid
 
 ![image](https://user-images.githubusercontent.com/91504420/230646021-feda48ed-2f47-4863-816d-dec2aae2fbaf.png)
 
-## 15. LOGISTIC REGRESSION
+## 15. LOGISTIC REGERSSION
 
 ![PrettyCoolAwesomeGIF](https://user-images.githubusercontent.com/91504420/230646333-2ab30f9a-1ff3-4038-88c2-e5d6f98668c9.gif)
 
@@ -375,7 +393,7 @@ By applying these techniques, one can build models that are less likely to overf
 
 ![image](https://user-images.githubusercontent.com/91504420/230687845-4bd25038-f388-480b-aa52-35a8bba1a045.png)
 
-19. NEURAL NETWORKS
+## 19. NEURAL NETWORKS
 
 ![LikeItGIF](https://user-images.githubusercontent.com/91504420/231020187-32b7c8ca-c810-404a-915b-1dc9f16b1587.gif)
 
@@ -399,7 +417,7 @@ e1eea2b1-3847-40a7-8f49-eceb0182b798.png)
 ![image](https://user-images.githubusercontent.com/91504420/231023362-2a4fd6fa-22fb-4874-ab56-99ab0e284d04.png)
 
 
-20. FORWARD PROPAGATION
+## 20. FORWARD PROPAGATION
 
 ![IHavePredictedItFamilyFeudCanadaGIF](https://user-images.githubusercontent.com/91504420/231021146-3e3bb4a3-6579-4102-878a-b8b737d2e8e1.gif)
 
@@ -427,6 +445,180 @@ Overall, TensorFlow is a powerful and widely-used tool in the field of machine l
 ![image](https://user-images.githubusercontent.com/91504420/231024196-50297cb5-f50e-4806-a238-829e4a753fbb.png)
 
 ![image](https://user-images.githubusercontent.com/91504420/231024242-0ad2db03-a60c-4266-9ebd-3191baadf04d.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231267390-af75ba33-d5c8-44dd-b829-ecb34f46cdf1.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231267862-a8901930-830c-4d1a-8dd6-5f06809b5b8c.png)
+
+## 22. RELU ACTIVATION
+
+![GoWithTheFlowRicardoSalusseGIF](https://user-images.githubusercontent.com/91504420/231269704-4d9a9cff-f54f-46ab-b453-961cf47949ea.gif)
+
+Rectified Linear Unit (ReLU) is an activation function commonly used in machine learning models. It is a piecewise linear function that returns zero for negative inputs and returns the input value for positive inputs. The ReLU activation function is computationally efficient and has been found to work well in deep neural networks. One of its benefits is that it helps to alleviate the vanishing gradient problem, which can occur in models with many layers. ReLU has become the default activation function in many neural network architectures and has contributed to the success of deep learning in various applications.
+
+![image](https://user-images.githubusercontent.com/91504420/231269847-d5656e9b-7b8c-4b07-8438-c3109211aa5b.png)
+
+## 23. CHOOSING ACTIVATION FUNCTION
+
+![BeWiseSmartGIF](https://user-images.githubusercontent.com/91504420/231272097-2ff86186-3b1e-4600-9b1c-70e2052eba26.gif)
+
+| Layer | Function | Purpose |
+| --- | --- | --- |
+| Input | None/Linear | Used to pass the input data to the next layer without any distortion. |
+| Hidden | ReLU | Most commonly used activation function in hidden layers, known for its efficiency in deep learning. |
+| Output (Binary Classification) | Sigmoid | Used to predict binary outcomes, such as whether an image contains a cat or not. |
+| Output (Multi-Class Classification) | Softmax | Used to predict multiple classes, such as identifying the correct digit in an image of a handwritten number. |
+| Output (Regression) | Linear | Used for regression tasks, where the output is a continuous value such as predicting the price of a house. |
+
+![image](https://user-images.githubusercontent.com/91504420/231272794-f8f79335-d313-4123-98f2-09557e543c8c.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231272151-e3393900-365d-45f6-883a-d61b04db5244.png)
+
+## 24. MULTICLASS CLASSIFICATION
+
+![INeedMoreRyanHigaGIF](https://user-images.githubusercontent.com/91504420/231276007-c32ca848-78f0-4a9e-a50c-6442edc5b268.gif)
+
+Multiclass classification is a type of supervised learning task in machine learning where the goal is to predict the class of an input instance from a fixed set of classes. In other words, it involves assigning an input to one of several possible categories or classes. This can be done using a variety of algorithms such as decision trees, random forests, and deep neural networks.
+
+In multiclass classification, the output variable is a categorical variable with more than two possible values. The goal is to train a model that can accurately predict the correct class for new, unseen instances. Evaluation metrics such as accuracy, precision, recall, and F1 score are used to assess the performance of the model.
+
+Some common applications of multiclass classification include image recognition, speech recognition, natural language processing, and sentiment analysis. Techniques such as one-vs-rest and one-vs-one can be used to extend binary classification algorithms to the multiclass setting. Overall, multiclass classification is an important problem in machine learning with many practical applications.
+
+![image](https://user-images.githubusercontent.com/91504420/231275857-ab94c698-660f-4dc7-b08b-abcb817aff06.png)
+
+## 25. SOFTMAX REGRESSION
+
+![SoImLevelingUpLevelUpGIF](https://user-images.githubusercontent.com/91504420/231277359-8fa56615-6991-4f8a-beaf-622db68b9423.gif)
+
+Softmax regression, also known as multinomial logistic regression, is a type of classification algorithm used in machine learning. It is an extension of logistic regression, but instead of predicting binary outcomes, it is used to predict multiple classes.
+
+In softmax regression, the input is multiplied by a weight matrix, and the resulting values are exponentiated and normalized using the softmax function. The output of the softmax function represents the probability distribution of the input belonging to each class. The class with the highest probability is then predicted as the output.
+
+Softmax regression is commonly used in natural language processing, image classification, and other applications where there are multiple possible classes. It can be trained using various optimization algorithms such as gradient descent and stochastic gradient descent, and it is evaluated using metrics such as accuracy, precision, recall, and F1 score.
+
+Overall, softmax regression is an important tool in the machine learning toolbox for multiclass classification problems.
+
+![image](https://user-images.githubusercontent.com/91504420/231277396-0e2dfeb3-9721-465e-8293-d3649447a2f2.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231277765-a959e361-f985-4bb9-a46b-30cebc0f726b.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231278148-a26df946-1964-485d-a2d5-7d3fe2826a81.png)
+
+## 26. MULTILABEL CLASSIFICATION
+
+![VagrantQueenSyfyGIF](https://user-images.githubusercontent.com/91504420/231279611-bb935d1e-0eef-4ca9-82a7-4f161976be3c.gif)
+
+Multi-label classification is a type of supervised learning in machine learning where an instance can be assigned to more than one label or category. This is in contrast to traditional binary or multi-class classification, where each instance is assigned to only one label or class.
+
+In multi-label classification, the output variable is a binary vector of size equal to the number of possible labels, with each element indicating the presence or absence of a particular label. This problem can be approached using a variety of algorithms, such as decision trees, support vector machines, and neural networks.
+
+Multi-label classification is commonly used in natural language processing, image classification, and other applications where an instance may belong to multiple categories or have multiple attributes. It can be evaluated using metrics such as accuracy, precision, recall, and F1 score.
+
+Overall, multi-label classification is an important problem in machine learning with many practical applications. It poses unique challenges compared to traditional binary or multi-class classification, and requires careful consideration of the problem domain and appropriate techniques for handling the multi-label aspect of the problem.
+
+![image](https://user-images.githubusercontent.com/91504420/231279701-ba5286b9-1100-4f13-939e-6715883a88a6.png)
+
+## 27. ADAM ALGORITHM
+
+![IWannaGoFastMattyMathesonGIF](https://user-images.githubusercontent.com/91504420/231282733-ed60534c-de9a-4996-81fe-b81af32d389b.gif)
+
+Adam (Adaptive Moment Estimation) is a popular optimization algorithm used in machine learning to update the weights of a neural network during training. It is an extension of stochastic gradient descent (SGD) that combines the benefits of both momentum and RMSprop algorithms.
+
+Adam maintains an exponentially decaying average of past gradients and squared gradients, which is used to adaptively update the learning rate for each weight. This helps to improve convergence and avoid oscillations in the loss function during training.
+
+The key advantages of Adam are its computational efficiency, its ability to handle noisy gradients and sparse data, and its adaptive learning rate. These features make it a popular choice for training deep neural networks in a variety of domains such as computer vision, natural language processing, and speech recognition.
+
+To use Adam, hyperparameters such as learning rate, beta parameters, and epsilon need to be tuned. There are also variations of the algorithm, such as AdamW and Adamax, that modify some of the key components of the original algorithm.
+
+Overall, Adam is a powerful and widely used optimization algorithm that has contributed significantly to the success of deep learning in recent years.
+
+![image](https://user-images.githubusercontent.com/91504420/231282864-f109327c-b1e6-4583-87bb-7824576ccf69.png)
+
+
+![image](https://user-images.githubusercontent.com/91504420/231282820-afef5d4d-d59d-41d5-9bf2-573074f4a3aa.png)
+
+## 28. CONVOLUTIONAL LAYER
+
+![ThisIsCertainlyAnUpgradeRealHousewivesOfNewYorkGIF](https://user-images.githubusercontent.com/91504420/231286015-90228f0d-7c1b-4467-aaec-d73d3663f688.gif)
+
+A convolutional layer is a type of layer in a neural network that performs convolution operations on input data. It is commonly used in convolutional neural networks (CNNs) for tasks such as image recognition, natural language processing, and audio processing.
+
+The convolutional layer consists of a set of learnable filters that are convolved with the input data to produce a set of feature maps. The filters are typically small and are slid over the input data to extract local patterns or features. Each filter produces a feature map that represents the response of that filter at every location in the input.
+
+The convolutional layer has several advantages over traditional fully connected layers. It reduces the number of parameters in the network, allowing it to scale to larger inputs and more complex tasks. It also exploits spatial relationships in the input data, making it well-suited for tasks such as image recognition.
+
+Convolutional layers can be stacked together to create deep convolutional neural networks, which have achieved state-of-the-art performance on many computer vision tasks. They are often combined with other types of layers such as pooling layers, activation layers, and normalization layers to create a complete network architecture.
+
+Overall, convolutional layers are an important component of modern neural networks and have revolutionized the field of computer vision. They have enabled the development of sophisticated models that can extract meaningful features from raw input data, leading to breakthroughs in tasks such as object detection, image segmentation, and image classification.
+
+![image](https://user-images.githubusercontent.com/91504420/231286095-a738e20a-1afc-4961-ab95-23b44db77bae.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231286162-6978cb5b-0119-4d72-b2cf-3ed2d42d65ff.png)
+
+## 29. MACHINE LEARNING DEVELOPMENT PROCESS
+
+![TrustTheProcessGIF](https://user-images.githubusercontent.com/91504420/231293443-1474eced-2aa3-42f6-ac5d-9d4fe0b62088.gif)
+
+The machine learning development process typically involves several stages, including:
+
+Problem Definition: Define the problem statement and the business goals of the project.
+
+Data Collection: Gather relevant data that will be used to train the model.
+
+Data Preparation: Preprocess and clean the data to ensure it is suitable for training the model.
+
+Model Selection: Choose the appropriate model that fits the problem and data.
+
+Model Training: Train the model on the data, typically using a portion of the data for training and another portion for validation.
+
+Model Evaluation: Evaluate the model's performance using metrics such as accuracy, precision, recall, and F1-score.
+
+Model Optimization: Fine-tune the model to improve its performance.
+
+Model Deployment: Deploy the trained model to a production environment, such as a web application or mobile app.
+
+Model Monitoring: Continuously monitor the model's performance in production and update it as necessary to maintain accuracy and avoid issues like bias and overfitting.
+
+Throughout the entire process, it's important to iterate and refine as needed to ensure the model is meeting business goals and accurately solving the problem at hand.
+
+![image](https://user-images.githubusercontent.com/91504420/231293539-134de6dc-719a-4686-ad38-dc45f6e71ac1.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231294756-8837560f-b27e-4f29-a762-76b06ee4a87c.png)
+
+
+## 30. DATA AUGMENTATION
+
+![ItsTimeToMakeAChangeRobotusGIF](https://user-images.githubusercontent.com/91504420/231294335-545f9259-5cc8-4028-8532-9adbd198f615.gif)
+
+Data augmentation is the process of artificially creating new variations of existing data by applying various transformations such as flipping, rotating, scaling, cropping, or adding noise. The goal of data augmentation is to increase the size and diversity of a training dataset, which can help improve the accuracy and generalization of machine learning models. Data augmentation is commonly used in computer vision and natural language processing tasks, where the availability of large and diverse datasets is often limited. By generating new data from existing samples, data augmentation can help overcome the problem of overfitting and improve the robustness and reliability of machine learning models.
+
+![image](https://user-images.githubusercontent.com/91504420/231294363-313f0878-2a66-4bdf-a4c6-c75719a6dc4b.png)
+
+## 31. PRECISION AND RECALL
+
+![ItsKindOfImportantJordanTheakerGIF](https://user-images.githubusercontent.com/91504420/231296643-c098daeb-220f-4641-a80c-d651a133659a.gif)
+
+Precision and recall are two commonly used performance metrics in machine learning evaluation.
+
+Precision is a measure of the accuracy of positive predictions made by a model. It is the ratio of true positive (TP) predictions to the total number of positive (TP + false positive, FP) predictions. A high precision indicates that the model has a low false positive rate and is good at correctly identifying positive instances.
+
+Recall, on the other hand, is a measure of the completeness of positive predictions made by a model. It is the ratio of true positive (TP) predictions to the total number of actual positive (TP + false negative, FN) instances. A high recall indicates that the model has a low false negative rate and is good at identifying all positive instances.
+
+In summary, precision measures how well a model predicts positive instances, while recall measures how well a model captures all positive instances. The choice of which metric to prioritize depends on the specific problem and the trade-off between precision and recall that is acceptable for the application.
+
+![image](https://user-images.githubusercontent.com/91504420/231296736-7912e925-4f06-43b7-b3f3-3259aa20fade.png)
+
+## 32. F1 SCORE
+
+![LetsSeeWhoGotTheBetterScoreAustinEvansGIF](https://user-images.githubusercontent.com/91504420/231300833-4276ac7c-2cb6-47a5-899f-10c066e1dc46.gif)
+
+The F1 score is a commonly used performance metric in machine learning that combines precision and recall into a single value. It is the harmonic mean of precision and recall, with a value ranging from 0 to 1, where 1 represents the best possible performance.
+
+The F1 score is calculated as 2*(precision*recall)/(precision+recall). It is a useful metric when both precision and recall are important, and an equally balanced trade-off is desired between the two. A high F1 score indicates that the model has a good balance between precision and recall, and is performing well in identifying all relevant instances while minimizing false positives and false negatives.
+
+In summary, the F1 score is a composite metric that measures the overall effectiveness of a model by considering both precision and recall, and is a useful metric for evaluating the performance of binary classification models.
+
+![image](https://user-images.githubusercontent.com/91504420/231300929-50c5df35-f886-4964-bef8-a1cb693f419f.png)
 
 
 <!-- Contact -->
