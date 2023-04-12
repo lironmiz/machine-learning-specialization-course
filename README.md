@@ -120,6 +120,8 @@ machine-learning-specialization-course" alt="top language" />
     + Random forest algorithm
     + XGBoost
     + Clustering 
+    + Anomaly detection
+    + Gaussian distribution
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,6 +169,8 @@ machine-learning-specialization-course" alt="top language" />
   - [37. RANDOM FOREST ALGORITHM](#37-random-forest-algorithm)
   - [38. XGBOOST](#38-xgboost)
   - [39. CLUSTERING](#39-clustering)
+  - [40. ANOMALY DETECTION](#40-anomaly-detection)
+  - [41. GAUSSIAN DISTRIBUTION](#41-gaussian-distribution)
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -767,6 +771,22 @@ Clustering has a wide range of applications in fields such as marketing, biology
 ![image](https://user-images.githubusercontent.com/91504420/231524906-e5c8bc02-2404-4634-bea1-8336e82a287c.png)
 
 ![image](https://user-images.githubusercontent.com/91504420/231526239-0ccb6bf8-4d7c-4b27-bd05-94a68b5010de.png)
+
+## 40. ANOMALY DETECTION
+
+![DontMakeItWeirdWeirdGIF](https://user-images.githubusercontent.com/91504420/231534023-3c4ccfc5-6a3b-4fcc-8a68-f6fa04ca4fb6.gif)
+
+Anomaly detection is a technique used in data analysis and machine learning to identify patterns that deviate from normal behavior. It involves identifying data points, events, or observations that are rare or unusual in a given dataset. Anomaly detection can be used in various fields, such as fraud detection, intrusion detection, fault detection, and health monitoring. There are different approaches to anomaly detection, including statistical methods, machine learning algorithms, and deep learning techniques. Anomaly detection requires a good understanding of the data, the context in which it is being analyzed, and the types of anomalies that need to be detected.
+
+![image](https://user-images.githubusercontent.com/91504420/231537021-3d1e9f69-d39a-4356-ab21-fd93f37d313e.png)
+
+## 41. GAUSSIAN DISTRIBUTION
+
+![DiracDistributionDeDiracGIF](https://user-images.githubusercontent.com/91504420/231537852-6609fdd3-dd4b-4c11-86a1-1386d1d50700.gif)
+
+The Gaussian distribution, also known as the normal distribution, is a probability distribution that is commonly used in statistics and data analysis. It is a bell-shaped curve that is symmetric around its mean value, with most of the data falling within one standard deviation of the mean. The Gaussian distribution is characterized by two parameters: the mean and the standard deviation. The mean represents the center of the distribution, while the standard deviation measures the spread of the data. Many natural phenomena, such as heights, weights, and IQ scores, follow a Gaussian distribution. The Gaussian distribution has many applications in science, engineering, finance, and other fields.
+
+![image](https://user-images.githubusercontent.com/91504420/231538702-1f33e69c-df51-4cbe-b464-b622b89034d1.png)
 
 
 <!-- Contact -->
