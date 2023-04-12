@@ -780,6 +780,17 @@ Anomaly detection is a technique used in data analysis and machine learning to i
 
 ![image](https://user-images.githubusercontent.com/91504420/231537021-3d1e9f69-d39a-4356-ab21-fd93f37d313e.png)
 
+![image](https://user-images.githubusercontent.com/91504420/231564661-a909345a-28f6-4b66-a2bf-a914e6bb196d.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231565072-192f035d-1720-4885-9f9d-871681e1767f.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231566006-70f56c36-2be5-4a3f-bc9b-59df001887df.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231566832-4e10fa34-c5da-424a-b962-504f177c0d2f.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231567523-c86fefa8-cad0-4115-84ee-817e0834500b.png)
+
+
 ## 41. GAUSSIAN DISTRIBUTION
 
 ![DiracDistributionDeDiracGIF](https://user-images.githubusercontent.com/91504420/231537852-6609fdd3-dd4b-4c11-86a1-1386d1d50700.gif)
@@ -787,6 +798,8 @@ Anomaly detection is a technique used in data analysis and machine learning to i
 The Gaussian distribution, also known as the normal distribution, is a probability distribution that is commonly used in statistics and data analysis. It is a bell-shaped curve that is symmetric around its mean value, with most of the data falling within one standard deviation of the mean. The Gaussian distribution is characterized by two parameters: the mean and the standard deviation. The mean represents the center of the distribution, while the standard deviation measures the spread of the data. Many natural phenomena, such as heights, weights, and IQ scores, follow a Gaussian distribution. The Gaussian distribution has many applications in science, engineering, finance, and other fields.
 
 ![image](https://user-images.githubusercontent.com/91504420/231538702-1f33e69c-df51-4cbe-b464-b622b89034d1.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231563422-6759084b-ed59-45d0-ade5-c36b204b6397.png)
 
 
 <!-- Contact -->
