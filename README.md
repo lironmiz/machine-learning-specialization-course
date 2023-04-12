@@ -76,6 +76,15 @@ machine-learning-specialization-course" alt="top language" />
 <!-- The Graduation Certificate -->
 # :star2: The Graduation Certificate 
 
+## course 1 of the Specialization
+
+![image](https://user-images.githubusercontent.com/91504420/231496888-a6e09890-ea36-489b-aeeb-728e6b623fbf.png)
+
+## course 2 of the Specialization
+
+![image](https://user-images.githubusercontent.com/91504420/231497172-71b643fa-87cf-4fd3-bd8a-9846bc3553bd.png)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Course Material -->
@@ -104,6 +113,13 @@ machine-learning-specialization-course" alt="top language" />
     + Machine learning development process 
     + Data augmentation
     + Precision/recall 
+    + Decision tree model
+    + Information gain 
+    + Tree ensemble
+    + Sampling with replacement 
+    + Random forest algorithm
+    + XGBoost
+    + Clustering 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,6 +160,14 @@ machine-learning-specialization-course" alt="top language" />
   - [30. DATA AUGMENTATION](#30-data-augmentation)
   - [31. PRECISION AND RECALL](#31-precision-and-recall)
   - [32. F1 SCORE](#32-f1-score)
+  - [33. DECISION TREE](#33-decision-tree)
+  - [34. INFORMATION GAIN](#34-information-gain)
+  - [35. TREE ENSEMBLE](#35-tree-ensemble)
+  - [36. SAMPLING WITH REPLACEMENT](#36-sampling-with-replacement)
+  - [37. RANDOM FOREST ALGORITHM](#37-random-forest-algorithm)
+  - [38. XGBOOST](#38-xgboost)
+  - [39. CLUSTERING](#39-clustering)
+  
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
 ![OmgWowGIF](https://user-images.githubusercontent.com/91504420/230409706-97176a59-d938-4897-8bb8-71f28b00f427.gif)
@@ -619,6 +643,130 @@ The F1 score is calculated as 2*(precision*recall)/(precision+recall). It is a u
 In summary, the F1 score is a composite metric that measures the overall effectiveness of a model by considering both precision and recall, and is a useful metric for evaluating the performance of binary classification models.
 
 ![image](https://user-images.githubusercontent.com/91504420/231300929-50c5df35-f886-4964-bef8-a1cb693f419f.png)
+
+## 33. DECISION TREE
+
+![NewRevealAWholeNewWorldGIF](https://user-images.githubusercontent.com/91504420/231458558-8d454ddc-a2fb-4a93-a3ee-a86e4db8082f.gif)
+
+A decision tree is a popular model in machine learning that can be used for both regression and classification tasks. The model consists of a tree-like structure where each internal node represents a test on a feature, each branch represents the outcome of the test, and each leaf node represents a class label or a numerical value.
+
+To create a decision tree, the algorithm recursively splits the data based on the feature that provides the most information gain until it reaches a stopping criterion, such as a minimum number of samples per leaf or a maximum depth of the tree.
+
+Decision trees are easy to interpret and visualize, but they can suffer from overfitting if not properly tuned or regularized. Various ensemble methods, such as random forests and gradient boosting, can be used to improve the performance and robustness of decision trees.
+
+![image](https://user-images.githubusercontent.com/91504420/231460237-0ce83363-4302-46ec-900b-c979c9382f1c.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231461828-98587992-6a53-4bf8-a01d-dd3a8d4cf564.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231484759-a4b925b2-095c-4554-a52e-5692296bdfa9.png)
+
+
+## 34. INFORMATION GAIN
+
+![NoPainNoGainWorkoutGIF](https://user-images.githubusercontent.com/91504420/231463491-ab472313-d613-4eb1-b018-330750dc4a3a.gif)
+
+Information gain is a criterion used in decision trees to determine the best split at each node of the tree. The basic idea is to choose the feature that provides the most information about the target variable.
+
+Information gain is calculated as the difference between the impurity of the parent node and the weighted average impurity of the child nodes after the split. Impurity is a measure of how mixed the classes are in a set of samples. Common impurity measures include entropy, Gini impurity, and classification error.
+
+The feature with the highest information gain is selected for the split, and the process is repeated recursively for each child node until a stopping criterion is met. The stopping criterion could be a minimum number of samples per leaf or a maximum depth of the tree.
+
+Information gain is a popular criterion for decision trees, but it has some limitations. For example, it tends to favor features with many possible values and can be biased towards features with a large number of categories. Other criteria, such as gain ratio and chi-square, can be used to address these issues.
+
+![image](https://user-images.githubusercontent.com/91504420/231463588-1ff893c4-c799-479d-93dc-5df374b8a28c.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231464214-3bda0df4-d4a9-45e9-b46c-b180de78a047.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231465874-b0d4a7bf-6bbf-499f-ab83-e7f79e7756c6.png)
+
+## 35. TREE ENSEMBLE
+
+![DancingTreeGIF](https://user-images.githubusercontent.com/91504420/231473483-034a57b8-f77a-4cdd-9260-60a1d01a76c4.gif)
+
+Tree ensembles are machine learning models that combine multiple decision trees to improve the performance and robustness of the individual trees. The two most popular tree ensembles are random forests and gradient boosting.
+
+Random forests are a type of ensemble learning that builds multiple decision trees and combines their predictions through voting. Each tree in the random forest is trained on a random subset of the training data and a random subset of the features, which helps to reduce overfitting and increase diversity in the ensemble.
+
+Gradient boosting is a method that iteratively adds decision trees to the model, with each tree trained to correct the errors of the previous tree. Gradient boosting can be used for both regression and classification tasks and is often used with decision trees as the base estimator.
+
+Both random forests and gradient boosting are powerful machine learning models that can achieve high accuracy on a wide range of tasks. They are also relatively easy to use and require little hyperparameter tuning. However, they can be computationally expensive and may not be the best choice for very large datasets or real-time applications.
+
+![image](https://user-images.githubusercontent.com/91504420/231473693-7d8dc5dc-4177-4c4b-bd22-48d728badb61.png)
+
+## 36. SAMPLING WITH REPLACEMENT
+
+![NumbersDontLieStatisticsGIF](https://user-images.githubusercontent.com/91504420/231480071-c07cef40-6b9c-4dae-a9f2-f6daeb53aba5.gif)
+
+Sampling with replacement is a statistical method that involves randomly selecting data points from a dataset and allowing the same data point to be selected multiple times. This means that each selected data point has an equal probability of being chosen for each selection.
+
+Sampling with replacement is commonly used in bootstrap methods, which involve repeatedly resampling the data with replacement to estimate the variability of a statistical model or estimate. By resampling the data, bootstrap methods can estimate the distribution of a statistic, such as the mean or standard deviation, without assuming a specific probability distribution.
+
+Sampling with replacement can also be used in machine learning algorithms, such as bagging, which involves building multiple models on random subsets of the training data and combining their predictions through voting or averaging. By using sampling with replacement, bagging can reduce overfitting and increase the diversity of the models in the ensemble.
+
+Overall, sampling with replacement is a useful statistical method for estimating uncertainty and improving the performance of machine learning models.
+
+![image](https://user-images.githubusercontent.com/91504420/231480335-a4ba7ff8-0565-4ba4-8725-7ff935bdad33.png)
+
+## 37. RANDOM FOREST ALGORITHM
+
+![RandomSnlGIF](https://user-images.githubusercontent.com/91504420/231481948-94503a15-5146-4c78-b7c0-e353479d33fd.gif)
+
+Random forest is a popular ensemble learning algorithm in machine learning that combines multiple decision trees to improve performance and reduce overfitting. It works by training a large number of decision trees on random subsets of the training data and features, and then combining their predictions through voting or averaging.
+
+Random forest can be used for both classification and regression tasks, and it has several advantages over a single decision tree. Random forest is less prone to overfitting than a single decision tree, and it can handle a large number of input features without overfitting. It also provides feature importance scores that can be used for feature selection and interpretation.
+
+The main steps of the random forest algorithm are:
+
+Randomly select a subset of the training data with replacement.
+Randomly select a subset of the input features.
+Build a decision tree on the selected data and features.
+Repeat steps 1-3 to build a forest of decision trees.
+Predict the class label or numerical value by aggregating the predictions of the decision trees in the forest, such as by voting or averaging.
+Random forest can be tuned by adjusting hyperparameters such as the number of trees in the forest, the depth of each tree, and the number of features selected for each tree. It is a powerful and versatile algorithm that has been used in many applications, such as image classification, bioinformatics, and financial modeling.
+
+![image](https://user-images.githubusercontent.com/91504420/231482285-636d44ca-2ec1-4a0d-89e0-77343c621751.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231482367-be248fb1-ba22-428c-ae72-8fd9007840ec.png)
+
+## 38. XGBOOST
+
+![ThanksBoostGIF](https://user-images.githubusercontent.com/91504420/231483323-e76c214e-efc7-4a86-ac8c-0096f0b574a4.gif)
+
+XGBoost (Extreme Gradient Boosting) is a powerful and popular gradient boosting algorithm used in machine learning for both regression and classification tasks. It is an extension of the gradient boosting algorithm that optimizes the objective function by using second-order derivatives of the loss function.
+
+XGBoost works by iteratively adding decision trees to the model, with each tree trained to correct the errors of the previous tree. XGBoost uses gradient descent to minimize the loss function, which measures the difference between the predicted and actual values.
+
+The key features of XGBoost are its speed, scalability, and performance. It is designed to handle large datasets and can handle missing values and sparse data. It also includes regularization techniques, such as L1 and L2 regularization, to prevent overfitting.
+
+XGBoost has become one of the most widely used machine learning algorithms and has won several competitions on Kaggle and other data science platforms. It has been used in various applications, such as fraud detection, stock prediction, and natural language processing.
+
+![image](https://user-images.githubusercontent.com/91504420/231483393-53b301f5-a251-4bd0-b8a7-7eb388548374.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231484019-168b88d4-3ea2-4a82-9a37-da552dae3d17.png)
+
+## 39. CLUSTERING
+
+![OnMyOwnSeriousFaceGIF](https://user-images.githubusercontent.com/91504420/231499864-b984d9b2-0c62-4b0a-a811-fe76e6656d3e.gif)
+
+Clustering is a technique in machine learning and data analysis that involves grouping together similar data points based on their features or attributes. The goal of clustering is to find patterns or structure in a dataset that may not be immediately obvious, and to identify groups or clusters of data points that share similar characteristics.
+
+There are several different types of clustering algorithms, including hierarchical clustering, k-means clustering, and density-based clustering. Each algorithm has its own strengths and weaknesses, and is suited to different types of data and clustering tasks.
+
+Clustering has a wide range of applications in fields such as marketing, biology, social network analysis, and image segmentation, among others. It is often used to discover patterns or trends in large datasets, to identify groups of similar customers or users, or to classify data points into different categories.
+
+![image](https://user-images.githubusercontent.com/91504420/231500736-8107405b-42e9-480e-bc2c-e91440e240f4.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231500937-82c189d0-0431-49e5-b58d-1d10d12b47d9.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231509143-e58eaaa5-3a77-45ae-9152-7c329f5a0480.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231509995-9403d8ef-6b49-485d-8196-357d78db4af1.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231510904-4947bb31-06a5-47ea-8121-1033b11bc92c.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231524906-e5c8bc02-2404-4634-bea1-8336e82a287c.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231526239-0ccb6bf8-4d7c-4b27-bd05-94a68b5010de.png)
 
 
 <!-- Contact -->
