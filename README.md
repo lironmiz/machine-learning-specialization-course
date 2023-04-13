@@ -16,43 +16,7 @@ It provides a broad introduction to modern machine learning, including supervise
 By the end of this Specialization, you will have mastered key concepts and gained the practical know-how to quickly and powerfully apply machine learning to challenging real-world problems. If you’re looking to break into AI or build a career in machine learning, the new Machine Learning Specialization is the best place to start.
 
 <!-- Badges -->
-<p>
-  <a href="https://github.com/lironmiz/
-machine-learning-specialization-course/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/lironmiz/
-machine-learning-specialization-course" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/lironmiz/
-machine-learning-specialization-course" alt="last update" />
-  </a>
-  <a href="https://github.com/lironmiz/
-machine-learning-specialization-course/network/members">
-    <img src="https://img.shields.io/github/forks/lironmiz/
-machine-learning-specialization-course" alt="forks" />
-  </a>
-  <a href="https://github.com/lironmiz/
-machine-learning-specialization-course/stargazers">
-    <img src="https://img.shields.io/github/stars/ladunjexa/nand2tetrisCourse" alt="stars" />
-  </a>
-  <a href="https://github.com/lironmiz/
-machine-learning-specialization-course/issues/">
-    <img src="https://img.shields.io/github/issues/lironmiz/
-machine-learning-specialization-course" alt="open issues" />
-  </a>
-  <a href="https://github.com/lironmiz/
-machine-learning-specialization-course/language count/">
-    <img src="https://img.shields.io/github/languages/count/lironmiz/
-machine-learning-specialization-course" alt="language count" />
-  </a>
-</p>
 
- ![](https://img.shields.io/tokei/lines/github/lironmiz/
-machine-learning-specialization-course?color=blue&label=Lines%20of%20Code)
-![Size](https://img.shields.io/github/repo-size/lironmiz/
-machine-learning-specialization-course?color=red&label=Repo%20Size%20)
- <img src="https://img.shields.io/github/languages/top/lironmiz/
-machine-learning-specialization-course" alt="top language" />
 
 <!-- Table of Contents -->
 <details>
@@ -122,6 +86,11 @@ machine-learning-specialization-course" alt="top language" />
     + Clustering 
     + Anomaly detection
     + Gaussian distribution
+    + Recommender system
+    + Mean normalization
+    + Reinforcement learning
+    + State action value function
+    + Bellman equation 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +140,11 @@ machine-learning-specialization-course" alt="top language" />
   - [39. CLUSTERING](#39-clustering)
   - [40. ANOMALY DETECTION](#40-anomaly-detection)
   - [41. GAUSSIAN DISTRIBUTION](#41-gaussian-distribution)
+  - [42. RECOMMENDER SYSTEMS](#42-recommeder-systems)
+  - [43. MEAN NORMALIZATION](#43-mean-normalization)
+  - [44. REINFORCEMENT LEARNING](#44-reinforcement-learning)
+  - [45. STATE ACTION VALUE FUNCTION](#45-state-action-value-function)
+  - [46. BELLMAN EQUATION](#46-bellman-equation)
   
 ## 2. APPLICATIONS OF MACHINE LEARNING
 
@@ -800,6 +774,77 @@ The Gaussian distribution, also known as the normal distribution, is a probabili
 ![image](https://user-images.githubusercontent.com/91504420/231538702-1f33e69c-df51-4cbe-b464-b622b89034d1.png)
 
 ![image](https://user-images.githubusercontent.com/91504420/231563422-6759084b-ed59-45d0-ade5-c36b204b6397.png)
+
+## 42. RECOMMENDER SYSTEMS
+
+![DoYouHaveAnyRecommendationsVanessaJoyGIF](https://user-images.githubusercontent.com/91504420/231798040-2d65d58d-45ac-4dd2-bed8-76119077e08a.gif)
+
+Recommender systems are a type of artificial intelligence that provide personalized recommendations to users based on their past behaviors and preferences. These systems are used in a variety of industries, from e-commerce to entertainment, and can help increase customer engagement, satisfaction, and revenue. There are several types of recommender systems, including collaborative filtering, content-based filtering, and hybrid systems that combine both approaches. These systems rely on algorithms that analyze user data to make predictions about what products or content a user is likely to enjoy or find useful, and they can be trained using a variety of techniques, including machine learning and natural language processing.
+
+![image](https://user-images.githubusercontent.com/91504420/231798619-db3fa11c-89df-411e-9874-f5aa223995ac.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231799667-102d397c-9ed7-44c0-a512-0b3d616c33f8.png)
+ 
+![image](https://user-images.githubusercontent.com/91504420/231800258-8235c70d-f794-49ee-9693-284480e1feda.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231801420-958b7dd4-a778-4ee0-80d0-79c5800a89fa.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231810077-c929739e-29a1-4617-a5a6-dba7a733e32a.png)
+
+
+## 43. MEAN NORMALIZATION
+
+![YouAreSoMeanGIF](https://user-images.githubusercontent.com/91504420/231805265-ca1ba2e3-acfa-480c-863a-229ec83817bb.gif)
+
+Mean normalization is a technique used in statistics and data analysis to rescale a dataset so that it has a mean of zero and a standard deviation of one. This involves subtracting the mean value of a dataset from each data point and then dividing the result by the standard deviation of the dataset. By doing this, the data is shifted so that it is centered around zero and has a consistent scale. Mean normalization can be useful in a variety of contexts, such as in machine learning algorithms that require standardized data, or in data visualization where the data can be more easily compared and analyzed when on the same scale.
+
+![image](https://user-images.githubusercontent.com/91504420/231807297-1ca00c8e-d85b-4986-bc69-3668037bcf37.png)
+
+## 44. REINFORCEMENT LEARNING
+
+![IDeserveATreatRamiMalekGIF](https://user-images.githubusercontent.com/91504420/231834398-babd51a6-2c91-4119-99fc-599c3649add5.gif)
+
+Reinforcement learning is a type of machine learning that involves an agent learning to take actions in an environment in order to maximize a cumulative reward signal. The agent receives feedback in the form of rewards or penalties based on its actions and learns through trial and error to identify the best actions to take in each situation. Reinforcement learning has been used in a wide range of applications, from robotics and gaming to finance and healthcare.
+
+![image](https://user-images.githubusercontent.com/91504420/231834755-1d269e3d-f090-4ae2-8846-7cbe42137e23.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231835453-e5a3d5a0-94b2-4d07-880a-0d770d07251a.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231837104-fbf1770a-2b8c-45da-8ffd-3b589fb42d78.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231837820-5dab5d61-6a1b-4c1f-8f4b-752374fb8c95.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231838000-9bf64ad3-98a1-407a-8b9c-d23d90aa9ae5.png)
+
+## 45. STATE ACTION VALUE FUNCTION
+
+![YouNeedThisDoodybeardGIF](https://user-images.githubusercontent.com/91504420/231841499-9c242f0e-b158-4ce0-830c-7a6e37cbb24b.gif)
+
+A state-action value function (also known as Q-function) is a function in reinforcement learning that estimates the value of taking a particular action in a given state. It represents the expected cumulative reward that an agent can achieve by taking a particular action in a particular state, and then following the optimal policy thereafter. The Q-function is typically learned through an iterative process of trial-and-error, where the agent explores the environment and updates its estimates of Q-values based on the observed rewards and transitions. The Q-function is a fundamental component of many reinforcement learning algorithms, including Q-learning and SARSA.
+
+![image](https://user-images.githubusercontent.com/91504420/231841618-deed4aa9-92d2-4610-a780-4fbc51655589.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231841708-99e6a639-a5a4-42e2-9abe-630101ba3693.png)
+
+## 46. BELLMAN EQUATION
+
+![TheodorosGIF](https://user-images.githubusercontent.com/91504420/231843934-44dd646c-8697-4624-a30e-3ceb6bc31ab2.gif)
+
+The Bellman equation is a fundamental concept in reinforcement learning, which is used to model the optimal behavior of an agent in a Markov decision process (MDP). It takes its name from Richard Bellman, who introduced the equation in the 1950s as a way to solve optimization problems in dynamic systems.
+
+The Bellman equation states that the optimal value of being in a particular state in an MDP is equal to the immediate reward received for being in that state, plus the discounted value of being in the next state, which is weighted by the probability of transitioning to that state:
+
+V(s) = max[a] { R(s,a) + γ * ∑p(s'|s,a) * V(s') }
+
+where V(s) is the value of being in state s, R(s,a) is the immediate reward received for taking action a in state s, γ is the discount factor that determines the importance of future rewards relative to immediate rewards, p(s'|s,a) is the probability of transitioning to state s' from state s when action a is taken, and the sum is taken over all possible next states s'.
+
+The Bellman equation is a recursive formula that can be solved iteratively to find the optimal value of each state in the MDP. It is the foundation for many reinforcement learning algorithms, including Q-learning and value iteration.
+
+![image](https://user-images.githubusercontent.com/91504420/231844238-1977cddf-07a5-49c9-bca1-195edc2d7f92.png)
+
+![image](https://user-images.githubusercontent.com/91504420/231843739-e88572bb-e950-42e3-a380-2971f6daec15.png)
+
+
 
 
 <!-- Contact -->
