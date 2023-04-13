@@ -31,9 +31,7 @@ By the end of this Specialization, you will have mastered key concepts and gaine
 - [Course Material](#books-course-material) 
 - [Course Summary](#alien-course-summary) 
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 - [About the authors](#telephone-about-the-authors)
-- [Course Status](#octocat-project-status)
 
 </details>  
 
@@ -47,6 +45,10 @@ By the end of this Specialization, you will have mastered key concepts and gaine
 ## course 2 of the Specialization
 
 ![image](https://user-images.githubusercontent.com/91504420/231497172-71b643fa-87cf-4fd3-bd8a-9846bc3553bd.png)
+
+## course 3 of the Specialization
+
+![image](https://user-images.githubusercontent.com/91504420/231867618-34fdd512-af2e-4ecb-a1fa-e63cce93bcd6.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -860,22 +862,9 @@ The Bellman equation is a recursive formula that can be solved iteratively to fi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acknowledgements -->
-# :gem: Acknowledgements
-
-Links to information that helped me during construction and learning:
- - [python3](https://docs.python.org/3/)
-
 <!-- About the authors -->
 ## :telephone: About the authors
 
  - Liron Mizarhi - Navy soldier and programmer
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Project status -->
-## :octocat: Project Status
-
-### Project is: In Progress!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
